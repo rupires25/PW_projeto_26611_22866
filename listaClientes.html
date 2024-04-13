@@ -6,36 +6,44 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" 
     crossorigin="anonymous">
     <script src="listaClientes.js"></script>
+    <link rel="stylesheet" href="listaClientes.css">
     <title>Lista de clientes</title>
 </head>
 <body>
-    <h1 class="text-center">Lista de Clientes</h1>
+    <h1 class="text-center text-white bg-secondary">Lista de Clientes</h1>
     <div>
-        <table class="container-fluid table-bordered" id="table">
-            <thead>
-                <tr class="bg-primary text-center">
-                    <th scope="col">#</th>
-                    <th scope="col">Nome</th>
-                    <th scope="col">Marca</th>
-                    <th scope="col">Data de inspeção</th>
-                    <th scope="col">Problemas</th>
-                    <th scope="col">Passou na Inspeção?</th>
-                    <th scope="col">Relatório Inspeção</th>
-                </tr>
-            </thead>
-            <tbody id="tbody" class="text-center"></tbody>
-        </table>
+        <div class="d-flex justify-content-between mx-3 my-2"> 
+            <input class="btn btn-secondary p-2" type="button" value="Input">
+            <a class="btn btn-secondary p-2" href="index.html" role="button">LogOut</a>
+        </div>
+        <div class="container-lg">
+            <table class="container table-bordered" id="table">
+                <thead>
+                    <tr class="bg-danger text-center">
+                        <th scope="col">#</th>
+                        <th scope="col">Nome</th>
+                        <th scope="col">Marca</th>
+                        <th scope="col">Data de inspeção</th>
+                        <th scope="col">Problemas</th>
+                        <th scope="col">Passou na Inspeção?</th>
+                        <th scope="col">Relatório Inspeção</th>
+                    </tr>
+                </thead>
+                <!---<tbody id="tbody" class="text-center"></tbody>--->
+                <tbody id="data-output" class="bg-secondary text-center"></tbody>
+            </table>
+            <!---<input type="text" id="nome" placeholder="Nome" >
+            <input type="text" id="marca" placeholder="Marca">
+            <input type="text" id="data" placeholder="Data de inspeção">
+            <input type="text" id="problemas" placeholder="Problemas">
+            <select id="passou">
+                <option value="Sim">Sim</option>
+                <option value="Não">Não</option>
+            </select> 
+            <button onclick="adicionarInformacao()">Adicionar Informação</button>
+            <button onclick="alterarInformacao()">Alterar Informação</button>
+        </div>--->
     </div>
-        <input type="text" id="nome" placeholder="Nome">
-        <input type="text" id="marca" placeholder="Marca">
-        <input type="text" id="data" placeholder="Data de inspeção">
-        <input type="text" id="problemas" placeholder="Problemas">
-        <select id="passou">
-            <option value="Sim">Sim</option>
-            <option value="Não">Não</option>
-        </select>
-        
-    <button onclick="adicionarInformacao()">Adicionar Informação</button>
-    <button onclick="alterarInformacao()">Alterar Informação</button>
+  
 </body>
 </html>

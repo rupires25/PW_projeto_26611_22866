@@ -3,7 +3,6 @@
 content: "";
 flex: 1;
 height: 1px;
-background: hsl(0, 0%, 93%);
 overflow-y: hidden;
 }
 .h-custom {
@@ -14,3 +13,13 @@ height: calc(100% - 73px);
 height: 100%;
 }
 }
+
+body{
+    background-image: url(assets/imagens/fabrica.jpg);
+    background-attachment:fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    overflow-y: hidden;
+}
+
+

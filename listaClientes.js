@@ -1,4 +1,4 @@
-function adicionarInformacao() {
+/*function adicionarInformacao() {
     var nome = document.getElementById("nome").value;
     var marca = document.getElementById("marca").value;
     var data = document.getElementById("data").value;
@@ -22,6 +22,7 @@ function adicionarInformacao() {
     cell4.innerHTML = data;
     cell5.innerHTML = problemas;
     cell6.innerHTML = passou;
+
 }
 
     function alterarInformacao() { 
@@ -41,4 +42,32 @@ function adicionarInformacao() {
             row.cells[4].innerHTML = problemas; 
             row.cells[5].innerHTML = passou; 
         } 
-    }
+    }*/
+    fetch("clientes.json")
+
+    .then(function(response){
+        return response.json();
+    })
+
+    .then(function(clientes){
+        let placehorlder = document.querySelector("#data-output");
+
+        let out = "";
+
+        for(let cliente of clientes){
+            out += `<tr>
+            <td>${cliente.id}</td>
+            <td>${cliente.name}</td>
+            <td>${cliente.marca}</td> 
+            <td>${cliente.dataDeInspecao}</td> 
+            <td>${cliente.problemas}</td>
+            <td>${cliente.passouInspecao}</td>   
+          </tr>
+          `
+
+                
+            ;
+        }
+
+        placehorlder.innerHTML = out;
+    })
