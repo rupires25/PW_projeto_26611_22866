@@ -1,0 +1,56 @@
+body{
+  background-image: url(assets/imagens/fabrica.jpg);
+  background-attachment:fixed;
+  background-repeat: no-repeat;
+  background-size: cover;
+  overflow-x: hidden;
+}
+
+.profileField{
+  margin-top: 10px;
+  background-color: rgb(0, 128, 128);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 450px;
+  border: 3px solid black;
+  border-radius: 10px;
+  border: none;
+}
+#imagemPerfil{
+  height: 200px;
+  width: 200px;
+  padding-top: 20px;
+}
+h1{
+  margin-top: 50px;
+  background-color: rgb(0, 128, 128);
+}
+
+.save{
+  font-weight: bold;
+  width: 200px;
+  height: 30px;
+  border: none;
+  border-radius: 3px;
+  background-color: rgb(191, 191, 191);
+  margin-top: 10px;
+
+}
+.goToHomePage{
+  font-weight: bold;
+  color: white;
+  width: 80px;
+  margin-top: 10px;
+  margin-left: 10px;
+  border-radius: 3px;
+  background-color: rgb(191, 191, 191);
+  border: none;
+}
+
+#fullname,
+#Email{
+  width: 400px;
+  border-radius: 5px;
+  border: none;
+}

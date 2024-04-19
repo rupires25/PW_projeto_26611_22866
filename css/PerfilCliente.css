@@ -1,0 +1,12 @@
+.card{
+  width: 550px;
+  margin-bottom: 20px;
+}
+
+body{
+  background-image: url(assets/imagens/fabrica.jpg);
+  background-attachment:fixed;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+

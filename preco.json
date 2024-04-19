@@ -1,0 +1,92 @@
+[
+  {
+    "category": "Veiculos ligeiros",
+    "price": "70€",
+    "imagem": "assets/veiculos/ligeiros.jpg",
+    "title": "Informação",
+    "shedule": "De segunda a sexta, das 9:00h até ás 20h00, sabado das 9:00h até as 13:00h",
+    "newtitle": "Importante!",
+    "documentos": "Certificado de matrícula ou o livrete, título do registo de propriedade e ficha da última inspeção"
+  },
+
+  {
+    "category": "Veiculos pesados",
+    "price": "90€",
+    "imagem": "assets/veiculos/pesados.jpg",
+    "title": "Informação",
+    "shedule": "De segunda a sexta, das 9:00h até ás 20h00, sabado das 9:00h até as 13:00h",
+    "newtitle": "Importante!",
+    "documentos": "Certificado de matrícula ou o livrete, título do registo de propriedade e ficha da última inspeção"
+  },
+
+  {
+    "category": "Transportes públicos",
+    "price": "110€",
+    "imagem":"assets/veiculos/publicos.jpg",
+    "title": "Informação",
+    "shedule": "De segunda a sexta, das 9:00h até ás 20h00, sabado das 9:00h até as 13:00h",
+    "newtitle": "Importante!",
+    "documentos": "Certificado de matrícula ou o livrete, título do registo de propriedade e ficha da última inspeção"
+  },
+
+  {
+    "category": "Motociclos",
+    "price": "75€",
+    "imagem":"assets/veiculos/motociclos.jpg",
+    "title": "Informação",
+    "shedule": "De segunda a sexta, das 9:00h até ás 20h00, sabado das 9:00h até as 13:00h",
+    "newtitle": "Importante!",
+    "documentos": "Certificado de matrícula ou o livrete, título do registo de propriedade e ficha da última inspeção"
+  },
+
+  {
+    "category": "Ambulâncias",
+    "price": "80€",
+    "imagem":"assets/veiculos/ambulancia.jpg",
+    "title": "Informação",
+    "shedule": "De segunda a sexta, das 9:00h até ás 20h00, sabado das 9:00h até as 13:00h",
+    "newtitle": "Importante!",
+    "documentos": "Certificado de matrícula ou o livrete, título do registo de propriedade e ficha da última inspeção"
+  },
+
+  {
+    "category": "Automoveis de instrução",
+    "price": "85€",
+    "imagem":"assets/veiculos/instrucao.jpg",
+    "title": "Informação",
+    "shedule": "De segunda a sexta, das 9:00h até ás 20h00, sabado das 9:00h até as 13:00h",
+    "newtitle": "Importante!",
+    "documentos": "Certificado de matrícula ou o livrete, título do registo de propriedade e ficha da última inspeção"
+  },
+  
+  {
+    "category": "Reboques",
+    "price": "90€",
+    "imagem":"assets/veiculos/reboque.jpg",
+    "title": "Informação",
+    "shedule": "De segunda a sexta, das 9:00h até ás 20h00, sabado das 9:00h até as 13:00h",
+    "newtitle": "Importante!",
+    "documentos": "Certificado de matrícula ou o livrete, título do registo de propriedade e ficha da última inspeção"
+  },
+  
+  {
+    "category": "Triciclos",
+    "price": "95€",
+    "imagem":"assets/veiculos/triciclos.jpeg",
+    "title": "Informação",
+    "shedule": "De segunda a sexta, das 9:00h até ás 20h00, sabado das 9:00h até as 13:00h",
+    "newtitle": "Importante!",
+    "documentos": "Certificado de matrícula ou o livrete, título do registo de propriedade e ficha da última inspeção"
+  },
+  
+  {
+    "category": "Quadricilos",
+    "price": "100€",
+    "imagem":"assets/veiculos/quadriciclos.jpg",
+    "title": "Informação",
+    "shedule": "De segunda a sexta, das 9:00h até ás 20h00, sabado das 9:00h até as 13:00h",
+    "newtitle": "Importante!",
+    "documentos": "Certificado de matrícula ou o livrete, título do registo de propriedade e ficha da última inspeção"
+  }
+  
+]
