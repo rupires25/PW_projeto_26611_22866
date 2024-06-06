@@ -8,8 +8,8 @@ function Informacao() {
   var userName = document.getElementById("name");
   var brand = document.getElementById("brand");
   var problems = document.getElementById("problems");
-  var passou = document.getElementById("passou");
   var Inspdate = document.getElementById("Idate");
+  var passou = document.getElementById("passou");
   var submitBtn = document.querySelector(".submit");
   var userInfo = document.getElementById("data");
   var modal = document.getElementById("userForm");
@@ -43,7 +43,7 @@ function showInfo(){
           <td>
               <button class="btn btn-success" onclick="readInfo('${element.clienteName}', '${element.clienteBrand}', '${element.clienteProblems}', '${element.clienteInspdate}', '${element.clientePassou}')" data-bs-toggle="modal" data-bs-target="#readData"><i class="bi bi-eye"></i></button>
 
-              <button class="btn btn-primary" onclick="editInfo(${index}, '${element.clienteName}', '${element.clienteBrand}', '${element.clienteProblems}', '${element.Inspdate}', '${element.clientePassou}')" data-bs-toggle="modal" data-bs-target="#userForm"><i class="bi bi-pencil-square"></i></button>
+              <button class="btn btn-primary" onclick="editInfo(${index}, '${element.clienteName}', '${element.clienteBrand}', '${element.clienteProblems}', '${element.clienteInspdate}', '${element.clientePassou}')" data-bs-toggle="modal" data-bs-target="#userForm"><i class="bi bi-pencil-square"></i></button>
 
               <button class="btn btn-danger" onclick="deleteInfo(${index})"><i class="bi bi-trash"></i></button>
                           
@@ -56,6 +56,7 @@ function showInfo(){
 showInfo()
 
 function readInfo(name, brand, problems, Idate, passou){
+  debugger
   document.querySelector('#showName').value = name;
   document.querySelector("#showBrand").value = brand;
   document.querySelector("#showProblems").value = problems;
@@ -64,6 +65,7 @@ function readInfo(name, brand, problems, Idate, passou){
 }
 
 function editInfo(index, name, Brand, Problems, Idate, Passou){
+  debugger
   isEdit = true
   editId = index,
   userName.value = name,

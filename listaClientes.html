@@ -94,7 +94,7 @@
                         <div class="inputField">
                             <div>
                                 <label for="name">Name:</label>
-                                <input type="text" name="" id="name" required>
+                                <input type="text" onkeydown="return /[a-zA-Z]/i.test(event.key)" name="" id="name" required>
                             </div>
                             <div>
                                 <label for="brand">Brand:</label>
@@ -102,7 +102,7 @@
                             </div>
                             <div>
                                 <label for="problems">Problems:</label>
-                                <input type="text" name="" id="problems" required>
+                                <input type="text" onkeydown="return /[a-zA-Z]/i.test(event.key)" name="" id="problems" required>
                             </div>
                             <div>
                                 <label for="date">Date Inspection:</label>
@@ -144,7 +144,7 @@
                         <div class="inputField">
                             <div>
                                 <label for="name">Name:</label>
-                                <input type="text" name="" id="showName" disabled>
+                                <input type="text" onkeydown="return /[a-zA-Z]/i.test(event.key)" name="" id="showName" disabled>
                             </div>
                             <div>
                                 <label for="age">Brand:</label>
@@ -152,7 +152,7 @@
                             </div>
                             <div>
                                 <label for="problems">Problems:</label>
-                                <input type="text" name="" id="showProblems" disabled>
+                                <input type="text" onkeydown="return /[a-zA-Z]/i.test(event.key)" name="" id="showProblems" disabled>
                             </div>
                             <div>
                                 <label for="date">Date Inspection:</label>
