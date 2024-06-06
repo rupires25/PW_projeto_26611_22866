@@ -60,12 +60,11 @@ function readInfo(name, brand, problems, Idate, passou){
   document.querySelector('#showName').value = name;
   document.querySelector("#showBrand").value = brand;
   document.querySelector("#showProblems").value = problems;
-  document.querySelector("#showsDate").value = Idate;
+  document.querySelector("#showIdate").value = Idate;
   document.querySelector('#showPassou').value = passou;
 }
 
 function editInfo(index, name, Brand, Problems, Idate, Passou){
-  debugger
   isEdit = true
   editId = index,
   userName.value = name,
